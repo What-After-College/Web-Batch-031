@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DAY 2</title>
+    <style>
+        marquee{
+            color: deepskyblue;
+            font-size: 50px;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+        img{
+            width: 250px;
+            margin-left: 40%;
+            border: forestgreen;
+            border-style:solid;
+            border-width: 20px;
+            border-radius: 50%;
+            margin-top: -20%;
+            padding: 0px;
+        }
+        body{
+            background-image: linear-gradient(gray,white);
+        }
+
+        .gen{
+            color: red !important;
+        }
+
+        #newgen{
+            color: springgreen;
+            font-size: 40px;
+        }
+
+        #pad{
+            width: 40%;
+            background-color: royalblue;
+            padding: 200px;
+        }
+    </style>
+</head>
+<body>
+    <marquee direction="right">Akanshu</marquee>
+    <form action="mailto:someone@something.com" method="POST">
+        Name: <br>
+        <input type="text" name="Name" placeholder="Enter your Name" required>
+        <br><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="male" id="gender-m">
+        <label for="gender-m" class="gen" id="newgen">Male</label>
+        <input type="radio" name="gender" value="female" id="gender-f">
+        <label for="gender-f" class="gen">Female</label>
+        <br><br>
+        Skills:
+        <input type="checkbox" name="skills" id="skill1" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="skills" id="skill2" value="CSS">
+        <label for="skill2">CSS</label>
+        <br><br>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <br>
+    <br>
+    Lists of Students:
+    <select name="Lists of Students" id="">
+        <option>--Select a Student--</option>
+        <option>Lokesh</option>
+        <option>Mohit</option>
+        <option selected>Sourabh</option>
+        <option>Tanay</option>
+    </select>
+    <br>
+    <img src="https://miro.medium.com/max/694/1*rUI8Y0zXSMbRxtz02mmmXw.jpeg" >
+    <div id="pad">
+        <p style="background-color: salmon;">Apple</p>
+    </div>
+</body>
+</html>
