@@ -16,5 +16,5 @@
 }
 
 #five{
-    flex-shrink: 3;
+    flex-grow: 3;
 }
